@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hccpg"
+version = "0.1.0"
+description = "Minimal PyTorch implementation of Self-Centered Clipped Critic Policy Gradient"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "SCCPG contributors"}]
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.2",
+  "vmas>=1.4",
+]
+
+[tool.setuptools.packages.find]
+include = ["HCCPG*"]
