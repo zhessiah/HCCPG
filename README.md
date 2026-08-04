@@ -22,7 +22,8 @@ This repository contains the core method and a single training interface. It doe
 ```text
 .
 ├── train.py
-├── HCCPG/
+├── SCCPG/
+│   ├── __init__.py
 │   ├── agent.py
 │   ├── algorithm.py
 │   ├── buffer.py

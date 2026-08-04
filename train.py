@@ -11,11 +11,11 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from HCCPG.algorithm import SCCPG
-from HCCPG.buffer import RolloutBuffer
-from HCCPG.config import SCCPGConfig
-from HCCPG.envs import make_environment
-from HCCPG.topology import CommunicationGraph
+from SCCPG.algorithm import SCCPG
+from SCCPG.buffer import RolloutBuffer
+from SCCPG.config import SCCPGConfig
+from SCCPG.envs import make_environment
+from SCCPG.topology import CommunicationGraph
 
 
 ENVIRONMENT_CHOICES = (
